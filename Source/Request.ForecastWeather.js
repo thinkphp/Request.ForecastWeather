@@ -50,5 +50,6 @@ provides: [Request.ForecastWeather]
                               $(elem).set('text','Loading...');
                        }
                 }).send();
+            return this;
           }
   });
