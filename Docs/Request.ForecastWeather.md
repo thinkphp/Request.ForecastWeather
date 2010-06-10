@@ -91,9 +91,9 @@ myElement.loadWeather(location,unit);
 
 ### Example:
 
-#html
+#HTML
 <div id="content">Loading content...</div>
 
-#javascript
+#JS
 $('content').loadWeather('bucharest','f');
 
