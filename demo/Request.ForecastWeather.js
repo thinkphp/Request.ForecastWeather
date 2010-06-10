@@ -33,6 +33,7 @@
                               $(elem).set('text','Loading...');
                        }
                 }).send();
+            return this;
           }
   });
 
