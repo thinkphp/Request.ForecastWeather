@@ -25,10 +25,10 @@ In your JavaScript source:
                                   $('weatherbadge').set('html',title+description);
                        }
            }).send();
-      });
-      //You can load the weather in an Element 
-      $('custom').loadWeather('london','f');
 
+         //You can load the weather in an Element 
+         $('custom').loadWeather('london','f');
+      });
 In your HTML source: 
 
        #HTML
