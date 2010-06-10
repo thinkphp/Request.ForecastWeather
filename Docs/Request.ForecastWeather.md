@@ -89,7 +89,7 @@ myElement.loadWeather(location,unit);
 
 (*Element*) - the target Element
 
-       ###Example:
+### Example:
 
        #HTML
        <div id="content">Loading content...</div>
