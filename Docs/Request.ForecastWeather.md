@@ -75,7 +75,7 @@ a Request.ForecastWeather instance
 
 ## Element Method: loadWeather
 
-Updates the content of the Element with this method
+Updates the content of the Element with the desired weather.
 
 ### Syntax:
 
