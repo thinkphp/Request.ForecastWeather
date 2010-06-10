@@ -73,3 +73,27 @@ a Request.ForecastWeather instance
 #### Arguments
      1. data - (*Object*) data returns are passed.
 
+## Element Method: loadWeather
+
+Updates the content of the Element with this method
+
+### Syntax:
+
+myElement.loadWeather(location,unit);
+
+#### Arguments:
+     1. location (*String*) - the location for which you wish to display weather.
+     2. unit (*Char*) - unit 'c' for degrees Celsius or 'f' for degrees Fahrenheit
+
+### Returns:
+
+(*Element*) - the target Element
+
+### Example:
+
+#html
+<div id="content">Loading content...</div>
+
+#javascript
+$('content').loadWeather('bucharest','f');
+

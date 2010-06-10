@@ -26,12 +26,14 @@ In your JavaScript source:
                        }
            }).send();
       });
+      //You can load the weather in an Element 
+      $('custom').loadWeather('london','f');
 
 In your HTML source: 
 
        #HTML
        <div id="weatherbadge"></div>
-
+       <div id="custom"></div>
 
 Dependencies
 

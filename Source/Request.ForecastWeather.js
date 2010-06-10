@@ -30,3 +30,25 @@ provides: [Request.ForecastWeather]
                    this.options.url = this.options.url.substitute({term: term,unit: unit}); 
                 }
    });
+
+  /*
+  Loading weather in an Element
+  adding method to the Element 
+  using: $('elem').loadWeather()
+  */
+  Element.implement({
+          loadWeather: function(location,unit) {
+                var elem = this;
+                new Request.ForecastWeather(location,unit,{
+                       onSuccess: function(o){
+                              var title = '<p style="color: blue"><strong>'+o.query.results.weather.rss.channel.item.title+'</strong></p>',
+                                  description = o.query.results.weather.rss.channel.item.description;               
+                                  elem.set('html',title+description);
+                       },
+                       onRequest: function(script){
+                              if(window.console) {console.log(script);}
+                              $(elem).set('text','Loading...');
+                       }
+                }).send();
+          }
+  });
