@@ -82,8 +82,8 @@ Updates the content of the Element with this method
 myElement.loadWeather(location,unit);
 
 #### Arguments:
-     1. location (*String*) - the location for which you wish to display weather.
-     2. unit (*Char*) - unit 'c' for degrees Celsius or 'f' for degrees Fahrenheit
+1. location (*String*) - the location for which you wish to display weather.
+2. unit (*Char*) - unit 'c' for degrees Celsius or 'f' for degrees Fahrenheit
 
 ### Returns:
 
