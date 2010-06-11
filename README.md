@@ -18,7 +18,7 @@ In your JavaScript source:
 
        #JS 
        window.addEvent('domready',function(){ 
-           new Request.Weather('bucharest','c',{
+           new Request.ForecastWeather('bucharest','c',{
                        onSuccess: function(o){
                               var title = '<p style="color: blue"><strong>'+o.query.results.weather.rss.channel.item.title+'</strong></p>',
                                   description = o.query.results.weather.rss.channel.item.description;               
