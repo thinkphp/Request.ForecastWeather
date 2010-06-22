@@ -41,7 +41,7 @@ a Request.ForecastWeather instance
 
 ### request
 
-* (*function*) this event (function) is fired when a request is made.
+* (*function*) this event (function) is fired whenever the instance actually send a request.It is passed one argument.
 
 ### Signature
 
@@ -53,7 +53,7 @@ a Request.ForecastWeather instance
 
 ### complete
 
-* (*function*) the function is triggered when the request has been completed and the data returns.
+* (*function*) this event is triggered whenever the instance receives a successful response from the server. It is passed one argument.
 
 ### Signature
 
@@ -64,7 +64,7 @@ a Request.ForecastWeather instance
 
 ### success
 
-* (*function*) this event (function) is fired when the the request has been completed and the data returns.
+* (*function*) this function is fired whenever the request has been completed and the data returns from the server. It is passed one argument.
 
 ### Signature
 
