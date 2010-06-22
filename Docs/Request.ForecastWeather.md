@@ -41,7 +41,7 @@ a Request.ForecastWeather instance
 
 ### request
 
-* (*function*) function is fired when a request is made.
+* (*function*) this event (function) is fired when a request is made.
 
 ### Signature
 
