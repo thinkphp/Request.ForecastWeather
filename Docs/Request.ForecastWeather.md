@@ -53,18 +53,18 @@ a Request.ForecastWeather instance
 
 ### complete
 
-* (*function*) function is triggered when the request is completed and the data returns.
+* (*function*) the function is triggered when the request has been completed and the data returns.
 
 ### Signature
 
    onComplete(data)
 
 #### Arguments
-     1. data - (*Object*) data returns are passed.
+     1. data - (*Object*) the data returns is passed.
 
 ### success
 
-* (*function*) function is triggered when the data returns.
+* (*function*) this event (function) is fired when the the request has been completed and the data returns.
 
 ### Signature
 
