@@ -37,5 +37,5 @@ In your HTML source:
 
 Dependencies
 
-      MooTools Core 1.2.4
+      MooTools Core 1.3
       MooTools More: Request.JSONP
