@@ -10,6 +10,7 @@ license:
 
 requires:
  core/1.3: '*'
+ more/1.3.0.1: Request.JSONP
 
 provides: [Request.ForecastWeather]
 ...
