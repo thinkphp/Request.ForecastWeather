@@ -1,6 +1,6 @@
 name: Request.ForecastWeather
 author: thinkphp
-current: v1.2
+current: v1.3
 category: widgets  
 tags:  [request,badge,weather,forecast,yql,jsonp,widget]
 docs:  http://github.com/thinkphp/Request.ForecastWeather/blob/master/Docs/Request.ForecastWeather.md
